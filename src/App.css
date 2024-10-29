@@ -1,0 +1,283 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+  display: block;
+  overflow-x: hidden;
+}
+
+/* navbar */
+
+nav {
+  background-color: rgb(96, 116, 109);
+  padding: 2rem 4rem;
+  border-radius: 0.1rem;
+
+}
+ nav ul {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+ }
+
+.link {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
+
+/* home */
+p {
+  padding-bottom: 1rem;
+  font-size: 1 rem;
+  line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pre-title {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: white;
+  position: relative; 
+  padding-left: 40px;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.pre-title::before{
+  content: "";
+  width: 20px;
+  height: 1px;
+  background: #242424;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+#home{
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+  padding: 0 3rem;
+  gap: 2rem;
+}
+
+.home-name {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-trim: 0.5rem 0 1rem;
+  color: white;
+}
+
+.home-left{
+  width: 60%;
+}
+
+.home-right img{
+  width: 340px;
+  border-radius: 1rem;
+
+}
+
+.home-right {
+  display: flex;
+  justify-content: center;
+}
+
+section{
+  padding-bottom: 5rem;
+}
+
+/* Project section */
+#project {
+  background-color: #423939;
+  padding: 4rem;
+}
+
+.project-text {
+  padding: 1.5rem;
+}
+
+.section-title-project {
+  text-align: center;
+  margin: 1rem 0 4rem;
+}
+
+
+/* layout */
+.grid-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.project {
+  padding:"2rem 1rem";
+  text-align: center;
+  background: #1a1818;
+  border-radius: 1rem;
+  width: 600px;
+  height: 550px;
+}
+
+.project-icon img{
+  width: 400px;
+  height: 300px;
+}
+
+.project h4 {
+  color: white;
+  margin: 0.5rem o;
+  padding: 1rem 2rem;
+}
+
+.project p {
+  color: white;
+  padding: 1rem 1rem;
+}
+
+.project-icon {
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.7rem;
+  margin-top: 2rem;
+}
+
+/* about */
+#about {
+  background-color: #1a1818;
+  padding: 3rem 3rem;
+}
+
+.about {
+  padding: 2rem 1.5rem;
+  text-align: center;
+  background-color: black;
+  border-radius: 0.7rem;
+}
+
+.about .about-icon img {
+  width: 48px;
+  height: 48px;
+}
+
+.section-title-about {
+  text-align: center;
+  margin: 1rem 0 4rem;
+}
+
+.about h4 {
+  color: white;
+  margin: 0.5rem o;
+}
+.about h1 {
+  text-align: center;
+  padding: 1.5rem;
+}
+.about p {
+  color: white;
+  padding: 1rem;
+}
+
+.about-icon {
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.text-about p{
+  padding-bottom: 2rem;
+}
+
+.row-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+/* contact */
+#contact {
+  padding: 6rem;
+}
+
+.text-contact {
+  padding: 1.5rem;
+}
+
+.contact-form div {
+  margin-bottom: 1.4rem;
+  width: 50%;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem 1.3rem;
+  font-family: "Roboto", sans-serif;
+  background: white;
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+  resize: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: black;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 1px solid gray;
+}
+
+.btn-submit {
+  width: 107%;
+  padding: 0.75rem 1.3rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.btn-submit:hover {
+  background-color: rgb(209, 207, 207);
+  color: black;
+}
