@@ -5,6 +5,7 @@ import pasarImage from '../assets/pasar.jpg';
 import AiImage from '../assets/ai.jpg';
 import cyberImage from '../assets/cyber.jpg';
 import gameImage from '../assets/game.jpg';
+import '../App.css'
 
 
 
@@ -116,7 +117,6 @@ const Home = () => {
           </div>
         </form>
       </div>
-
     </section>
     </>
   )

@@ -1,38 +1,19 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Home from '../Pages/Home';
-import Project from '../Pages/project';
-import About from '../Pages/About';
-import Contact from '../Pages/Contact';
-import '../App.css';
+import {Link} from 'react-router-dom';
 
-const Navbar = () => {
+function Navbar({link1, link2, link3, link4, link5, path1, path2, path3, path4, path5}) {
   return (
-    <>
-    <Router>
-            <div>
-                <nav>
-                    <ul>
-                        <div className="logo">
-                            <h3>Portofolio</h3>
-                        </div>
-                        <div className="link">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/project">Project</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                        </div> 
-                    </ul>
-                </nav>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/project" element={<Project/>} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/contact" element={<Contact />} />
-                </Routes>
-            </div>
-        </Router>
-    </>
+    <nav className='bg-black w-full flex flex-row justify-between p-8 px-12 text-xl '>
+        <div className='text-white text-2xl'>
+            Portofolio
+        </div>
+        <ul className='text-white flex flex-row gap-12'>
+            <Link to={path1}>{link1}</Link>
+            <Link to={path2}>{link2}</Link>
+            <Link to={path3}>{link3}</Link>
+            <Link to={path4}>{link4}</Link>
+        </ul>
+    </nav>
   )
 }
 

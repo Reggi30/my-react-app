@@ -17,26 +17,6 @@ html,body {
   overflow-x: hidden;
 }
 
-/* navbar */
-
-nav {
-  background-color: rgb(96, 116, 109);
-  padding: 2rem 4rem;
-  border-radius: 0.1rem;
-
-}
- nav ul {
-  display: flex;
-  justify-content: space-between;
-  color: black;
- }
-
-.link {
-  display: flex;
-  gap: 5rem;
-  flex-direction: row;
-}
-
 /* home */
 p {
   padding-bottom: 1rem;
