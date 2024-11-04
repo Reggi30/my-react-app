@@ -22,6 +22,7 @@ p {
   padding-bottom: 1rem;
   font-size: 1 rem;
   line-height: 1.5rem;
+  color: white;
 }
 
 a {
@@ -94,7 +95,7 @@ section{
 
 /* Project section */
 #project {
-  background-color: #423939;
+  background-color: #da790a;
   padding: 4rem;
 }
 
@@ -117,9 +118,9 @@ section{
 }
 
 .project {
-  padding:"2rem 1rem";
+  padding:"1rem 0.5rem";
   text-align: center;
-  background: #1a1818;
+  background: black;
   border-radius: 1rem;
   width: 600px;
   height: 550px;
@@ -152,20 +153,21 @@ section{
 
 /* about */
 #about {
-  background-color: #1a1818;
+  background-color: black;
   padding: 3rem 3rem;
 }
 
 .about {
   padding: 2rem 1.5rem;
   text-align: center;
-  background-color: black;
+  background-color: #da790a;
   border-radius: 0.7rem;
 }
 
 .about .about-icon img {
   width: 48px;
   height: 48px;
+  border-radius: 0.5rem;
 }
 
 .section-title-about {
@@ -187,10 +189,10 @@ section{
 }
 
 .about-icon {
-  background-color: white;
+  background-color: black;
   width: fit-content;
   margin: auto;
-  padding: 0.5rem 0.5rem;
+  padding: 0.2rem 0.2rem;
   border-radius: 0.5rem;
 }
 
@@ -229,15 +231,15 @@ section{
   width: 100%;
   padding: 0.75rem 1.3rem;
   font-family: "Roboto", sans-serif;
-  background: #423939;
-  border: 1px solid gainsboro;
+  background: white;
+  border: 1px solid rgb(73, 72, 72);
   border-radius: 3px;
   resize: none;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: white;
+  color: black;
 }
 
 .contact-form input:focus,
@@ -247,9 +249,9 @@ section{
 }
 
 .btn-submit {
-  width: 107%;
+  width: 100%;
   padding: 0.75rem 1.3rem;
-  background-color: black;
+  background-color: #da790a;
   color: white;
   border: none;
   border-radius: 3px;

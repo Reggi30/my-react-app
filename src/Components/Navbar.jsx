@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 
-function Navbar({link1, link2, link3, link4, link5, path1, path2, path3, path4, path5}) {
+function Navbar({link1, link2, link3, link4, link5, path1, path2, path3, path4,}) {
   return (
-    <nav className='bg-black w-full flex flex-row justify-between p-8 px-12 text-xl '>
+    <nav className='bg-orange-500 w-full flex flex-row justify-between p-8 px-12 text-xl border-r-zinc-900'>
         <div className='text-white text-2xl'>
             Portofolio
         </div>

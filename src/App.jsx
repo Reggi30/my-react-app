@@ -2,7 +2,7 @@ import React from 'react'
 
 // Componen
 import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer'
 
 // Route
 import {Routes, Route} from 'react-router-dom';
