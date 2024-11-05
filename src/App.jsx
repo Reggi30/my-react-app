@@ -13,22 +13,20 @@ import Home from  "./pages/Home"
 import Project from  "./pages/Project"
 import Contact from  "./pages/Contact"
 const App = () => {
+const navLink = [
+  {link : "Home", path:"/"},
+  {link : "About", path:"/About"},
+  {link : "Project", path:"/Project"},
+  {link : "Contact", path:"/Contact"},
+]
+
   return (
     
     <>
-    <Navbar
-    // Link
-    link1="Home"
-    link2="About"
-    link3="Project"
-    link4="Contact"
 
-    // Path
-    path1="/"
-    path2="/About"
-    path3="/Project"
-    path4="/Contact"
-    ></Navbar>
+    {/* Navbar */}
+    <Navbar navLink={navLink} />
+
 
     {/* Route */}
     <Routes>

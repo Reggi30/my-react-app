@@ -38,7 +38,7 @@ a {
 .pre-title {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  color: white;
+  color: #da790a;
   position: relative; 
   padding-left: 40px;
   width: fit-content;
@@ -50,7 +50,7 @@ a {
   content: "";
   width: 20px;
   height: 1px;
-  background: #242424;
+  background: white;
   position: absolute;
   left: 0;
   top: 50%;
@@ -95,7 +95,7 @@ section{
 
 /* Project section */
 #project {
-  background-color: #da790a;
+  background-color: black;
   padding: 4rem;
 }
 
@@ -120,7 +120,7 @@ section{
 .project {
   padding:"1rem 0.5rem";
   text-align: center;
-  background: black;
+  background: #da790a;
   border-radius: 1rem;
   width: 600px;
   height: 550px;
@@ -173,6 +173,7 @@ section{
 .section-title-about {
   text-align: center;
   margin: 1rem 0 4rem;
+  color: white
 }
 
 .about h4 {
